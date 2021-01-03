@@ -1,0 +1,52 @@
+li {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+table {
+  width: 100%;
+  overflow-y: scroll;
+  height: 250px;
+  display: block;
+}
+td {
+  border: none;
+  width: 70%;
+  text-align: left;
+  font-size: large;
+  padding: 0px;
+}
+tr {
+  height: 10px;
+}
+.delete {
+  padding: 0px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #94cbc9;
+  /* background-color: #061426; */
+  background-color: #074259;
+  color: #b0d9d1;
+}
+input[type="time"] {
+  border: none;
+  margin-left: 10px;
+}
+#table-scroll {
+  height: 300px;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.minus {
+  margin-right: 10px;
+}
+
+.timedis{
+  width: 100px;
+}
+.itemdis{
+  width: 80%;
+}

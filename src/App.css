@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  border: #282c34;
+  background-color: #074259;
+}
+
+html{
+  height: 100%;
+  background-color: #061426;
+  background-size: cover;
 }
 
 .App-logo {
@@ -23,7 +31,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+header{
+  font-size: 75px;
+  text-align: center;
+  margin-top: 70px;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +47,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.todobox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 10px;
+  padding: 40px;
+  padding-top: 20px;
+  width: 450px
 }
