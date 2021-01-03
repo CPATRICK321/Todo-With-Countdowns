@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+This project contains a list to which you can add todo items. With each item, you must add a time to get it done. Each todo item has a countdown next to it, displaying how much time is left until your time is up to complete the item.
+
 ## Available Scripts
 
 In the project directory, you can run:
